@@ -26,7 +26,7 @@ function parseData() {
 function shuffleData(){
   const listMiddle = Math.ceil(numberOfElements/2)
   let topElements = list.slice(0,listMiddle)
-  let bottomeElements = list.slice(listMiddle, numberOfElements)
+  let bottomElements = list.slice(listMiddle, numberOfElements)
  
   let top = 0, bottom =0
 
@@ -36,7 +36,7 @@ function shuffleData(){
       top++
     }
     else{
-      outputList.push(bottomeElements[bottom])
+      outputList.push(bottomElements[bottom])
       bottom++
     }
   }
