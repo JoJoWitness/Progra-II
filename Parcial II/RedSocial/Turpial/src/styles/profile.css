@@ -1,0 +1,85 @@
+.profile_container{
+  background-color: #F9F4C8;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow-y: scroll;
+}
+
+.profile_header{
+  background-color: #FBF9DA;
+  height: 80px;
+  border-bottom: 6px solid #F9F4C8;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  
+  gap: 20px;
+  padding: 0px 40px 0px 50px;
+}
+
+.profile_header > h2{
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.profile_header > img{
+  height: 40px;
+  cursor: pointer;
+}
+
+.profile_blankSpace{
+  height: 125px;
+  background-color: #F9F4C8;
+  position: relative;
+}
+
+.profile_blankSpace > img{
+  position: absolute;
+  left: 60px;
+  bottom: -80px;
+  width: 160px;
+  z-index: 2;
+}
+
+.profile_info{
+  background-color: #FBF9DA;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-end;
+  
+  height: 240px;
+  gap: 15px;
+  padding: 20px 40px 20px 50px;
+}
+
+.profile_infoDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  top: 80px;
+}
+
+.profile_info >button{
+  align-self: flex-end;
+ border-radius: 15px;
+ background-color: #131201;
+}
+
+.profile_infoDiv > h3{
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px;
+}
+
+.profile_infoDiv > p{
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px;
+}
