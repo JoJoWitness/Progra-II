@@ -42,7 +42,12 @@
   left: 60px;
   bottom: -80px;
   width: 160px;
+  height: 160px;
   z-index: 2;
+  border: 2px solid #131313;
+  background-color: #FBF9DA;
+  border-radius: 50%;
+  object-fit:cover;
 }
 
 .profile_info{
@@ -82,4 +87,30 @@
   font-size: 16px;
   font-weight: 500;
   margin: 0px;
+}
+
+.profile_editBtns{
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+.profile_editBtns > img{
+ height: 44px;
+}
+
+.profile_editInput{
+  background-color: #F8EFA0;
+  border-radius: 5px;
+  border-color: transparent;
+  width: 350px;
+  color:#131201
+}
+
+.profile_textBox{
+  background-color: #F8EFA0;
+  border-radius: 5px;
+  border-color: transparent;
+  width: 350px;
+  color:#131201
 }

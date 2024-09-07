@@ -104,6 +104,20 @@
   align-self: flex-end;
 }
 
+.tweet_bottom{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.tweet_bottom > div{
+  font-size: 14px;
+
+}
+
 .tweet_img{
   max-width: 450px;
   height: auto;

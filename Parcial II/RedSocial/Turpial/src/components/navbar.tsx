@@ -21,7 +21,7 @@ export const Navbar = () => {
                     </div>
                     <div className='nav_container'>
                         <img src={User}/>
-                        <Link className="nav-link" to="Profile/@Ryuk_catSlayer">Usuario</Link>
+                        <Link className="nav-link" to="Profile">Usuario</Link>
                     </div>
                     
                     
